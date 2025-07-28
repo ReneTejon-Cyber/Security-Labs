@@ -13,10 +13,10 @@
 [![Credly](https://img.shields.io/badge/Credly-Badges-red)](https://www.credly.com/users/rene-tejon/badges)
 
 ## 🔬 Featured Labs
-| Lab | Tools | Status | Skills Demonstrated |
-|-----|-------|--------|---------------------|
-| [Wireshark Basics](labs/wireshark/) | Wireshark | 🚧 In Progress | Packet Analysis |
-| [Python Fundamentals](scripts/) | Pandas | 🚧 Learning | Data Parsing |
+| Lab                                 | Tools     | Status           | Skills Demonstrated |
+|-------------------------------------|-----------|------------------|---------------------|
+| [Wireshark Basics](labs/wireshark/) | Wireshark | 🚧 In Progress  | Packet Analysis     |
+| [Python Fundamentals](scripts/)     | Pandas    | 🚧 Learning     | Data Parsing        |
 
 ## 🌱 Learning Journey
 ```mermaid
@@ -25,6 +25,7 @@ graph LR
     B --> C[Wireshark Labs]
     C --> D[Python Automation]
     D --> E{{SOC Analyst Role}}
+```
 
 ## 📬 Contact
 Let's discuss security roles or collaborate:  
