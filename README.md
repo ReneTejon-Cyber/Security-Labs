@@ -25,7 +25,6 @@ graph LR
     B --> C[Wireshark Labs]
     C --> D[Python Automation]
     D --> E{{SOC Analyst Role}}
-```
 
 ## 📬 Contact
 Let's discuss security roles or collaborate:  
