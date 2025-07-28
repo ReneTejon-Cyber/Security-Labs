@@ -1,53 +1,30 @@
-# Security-Labs
-🔐 Hands-on cybersecurity labs | Python scripts | Wireshark analysis | SOC simulations | Transitioning from academia to industry with applied threat detection and GRC projects
-
+```markdown
 # Rene Tejon | Cybersecurity Transition Portfolio
 `Security+ | Python | SOC Analysis | GRC`  
-*(Adjunct Professor → SOC/GRC Analyst)*  
+*(Adjunct Professor → SOC/GRC Analyst)*
+
+## 🚀 Current Focus (Week of July 28)
+- [ ] Wireshark: Analyze [sample C2 traffic](https://www.malware-traffic-analysis.net/2023/11/17/index.html)
+- [ ] Python: Build basic log parser (I'll provide dataset)
+- [ ] Applications: 5 SOC I roles (FL govt/education)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/rene-tejon)
 [![Credly](https://img.shields.io/badge/Credly-Badges-red)](https://www.credly.com/users/rene-tejon/badges)
 
-## 🎯 Career Transition Focus
-**Leveraging 2+ years teaching IT/cybersecurity to break into:**  
-- **SOC Analyst** roles (Threat Detection, SIEM)  
-- **GRC Analyst** positions (NIST, Risk Management)  
-
-**Key Transferable Skills:**  
-✔️ **Python Instruction** → Security Scripting  
-✔️ **Network+ Teaching** → Traffic Analysis  
-✔️ **Project+ Knowledge** → Security Policy Development  
-
 ## 🔬 Featured Labs
-| Lab | Tools | Skills Demonstrated | Report |
-|-----|-------|---------------------|--------|
-| [Wireshark: Port Scan Detection](labs/wireshark/) | Wireshark, TCP/IP | Network Forensics | [PDF](reports/wireshark_analysis.pdf) |
-| [Python Log Analyzer](scripts/log_parser.py) | Pandas, Regex | SIEM Simulation | [Notebook](scripts/log_analysis.ipynb) |
-| [Active Directory Hardening](labs/active-directory/) | Hyper-V, PowerShell | Enterprise Security | [Guide](labs/ad/README.md) |
+| Lab | Tools | Status | Skills Demonstrated |
+|-----|-------|--------|---------------------|
+| [Wireshark Basics](labs/wireshark/) | Wireshark | 🚧 In Progress | Packet Analysis |
+| [Python Fundamentals](scripts/) | Pandas | 🚧 Learning | Data Parsing |
 
-## 🛠️ Technical Toolkit
-```python
-# Sample Threat Detection (Python)
-import pandas as pd
-
-def detect_bruteforce(logs, threshold=5):
-    """Identifies brute force attempts from logs"""
-    suspicious = logs[logs['failed_logins'] > threshold]
-    return suspicious[['src_ip', 'timestamp']]
-```
-
-**Core Proficiencies:**  
-- **Threat Hunting**: Wireshark, Zeek, Splunk (Free Tier)  
-- **GRC**: NIST CSF, ISO 27001 Fundamentals  
-- **Automation**: Python (Pandas, Requests), PowerShell  
-
-## 📚 Certifications & Education
-| Credential | Institution | Year |
-|------------|-------------|------|
-| CompTIA Security+ | CompTIA | 2023 |
-| MS Data Analytics | Nova Southeastern | 2023 |
-| Network+ | CompTIA | 2022 |
+## 🌱 Learning Journey
+```mermaid
+graph LR
+    A[Teaching IT] --> B(Security+)
+    B --> C[Wireshark Labs]
+    C --> D[Python Automation]
+    D --> E{{SOC Analyst Role}}
 
 ## 📬 Contact
 Let's discuss security roles or collaborate:  
