@@ -21,7 +21,7 @@
 ## 🌱 Learning Journey
 ```mermaid
 graph LR
-    A[Teaching IT] --> B(Security+)
+    A[Teaching IT] --> B[Security+]
     B --> C[Wireshark Labs]
     C --> D[Python Automation]
     D --> E{{SOC Analyst Role}}
