@@ -1,0 +1,17 @@
+# Python
+__pycache__/  # ⬅ Ignore Python bytecode cache directories
+*.pyc  # ⬅ Ignore Python compiled files
+*.pcap  # ⬅ Excludes large Wireshark captures
+
+# System
+.DS_Store  # ⬅ Ignore macOS Finder metadata files
+Thumbs.db  # ⬅ Ignore Windows thumbnail cache files
+Desktop.ini  # ⬅ Ignore Windows desktop configuration files
+~$*.doc*  # ⬅ Ignore temporary Microsoft Office files
+
+#IDEs
+.idea/  # ⬅ Ignore JetBrains IDE project files
+.vscode/  # ⬅ Ignore Visual Studio Code workspace settings
+
+# Logs
+*.log  # ⬅ Ignore log files
