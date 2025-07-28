@@ -1,4 +1,3 @@
-```markdown
 # Rene Tejon | Cybersecurity Transition Portfolio
 `Security+ | Python | SOC Analysis | GRC`  
 *(Adjunct Professor → SOC/GRC Analyst)*
