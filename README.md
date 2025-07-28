@@ -19,13 +19,12 @@
 | [Python Fundamentals](scripts/)     | Pandas    | 🚧 Learning     | Data Parsing        |
 
 ## 🌱 Learning Journey
-```mermaid
-graph LR
+```mermaid graph LR
     A[Teaching IT] --> B(Security+)
     B --> C[Wireshark Labs]
     C --> D[Python Automation]
     D --> E{{SOC Analyst Role}}
-    ```
+```
 
 ## 📬 Contact
 Let's discuss security roles or collaborate:  
