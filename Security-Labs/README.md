@@ -20,7 +20,7 @@
 
 ## 🌱 Learning Journey
 ```mermaid
-graph LR;
+flowchart LR;
     A[Teaching IT] --> B[Security+]
     B --> C[Wireshark Labs]
     C --> D[Python Automation]
